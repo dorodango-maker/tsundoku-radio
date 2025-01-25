@@ -15,7 +15,7 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true # has chinese/japanese/korean ?
-paginate = 5
+pagination.pagerSize = 5
 disqusShortname = ""  # disqus_shortname
 # googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = "" # default: author.name
@@ -34,18 +34,23 @@ weight = 10
 identifier = "home"
 url = "/"
 [[menu.main]]
-name = "Archives"
+name = "About"
 weight = 20
+identifier = "about"
+url = "/about/"
+[[menu.main]]
+name = "Archives"
+weight = 30
 identifier = "archives"
 url = "/post/"
 [[menu.main]]
 name = "Tags"
-weight = 30
+weight = 40
 identifier = "tags"
 url = "/tags/"
 [[menu.main]]
 name = "Categories"
-weight = 40
+weight = 50
 identifier = "categories"
 url = "/categories/"
 
