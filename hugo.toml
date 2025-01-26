@@ -115,8 +115,8 @@ shouldSort = true
 threshold = 0.4
 
 [params.homeInfoParams]
-Content = "オレたちの読書習慣"
 Title = "つんどく📚 ~ radio"
+Content = "オレたちの読書習慣"
 
 [params.label]
 icon = "/apple-touch-icon.png"
