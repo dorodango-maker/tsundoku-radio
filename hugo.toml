@@ -14,9 +14,9 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
-hasCJKLanguage = true # has chinese/japanese/korean ?
+hasCJKLanguage = true    # has chinese/japanese/korean ?
 pagination.pagerSize = 5
-disqusShortname = ""  # disqus_shortname
+disqusShortname = ""     # disqus_shortname
 # googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = "" # default: author.name
 
@@ -63,7 +63,7 @@ since = "2017" # Site creation time
 gitRepo = ""
 
 # site info (optional)
-logoTitle = "つんどく📚 ~ radio"                            # default: the title value
+logoTitle = "つんどく📚 ~ radio"                   # default: the title value
 keywords = ["Hugo", "theme", "even"]
 description = "Hugo theme even example site."
 
