@@ -1,0 +1,162 @@
+baseURL = "http://localhost:1313/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+buildDrafts = false
+buildExpired = false
+buildFuture = false
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true               # use git commit log to generate lastmod record
+hasCJKLanguage = true              # has chinese/japanese/korean ?
+pagination.pagerSize = 5
+pygmentsUseClasses = true
+theme = "paper_mod"
+title = "つんどく📚 ~ radio"
+
+[markup.highlight]
+noClasses = false
+
+[menu]
+
+[[menu.main]] # config your menu
+name = "Home"
+weight = 10
+identifier = "home"
+url = "/"
+
+[[menu.main]]
+name = "About"
+weight = 20
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Archives"
+weight = 30
+identifier = "archives"
+url = "/posts/"
+
+[[menu.main]]
+name = "Tags"
+weight = 40
+identifier = "tags"
+url = "/tags/"
+
+[[menu.main]]
+name = "Categories"
+weight = 50
+identifier = "categories"
+url = "/categories/"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+DateFormat = "January 2, 2006"
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowPostNavLinks = true
+ShowReadingTime = true
+ShowRssButtonInSectionTermList = true
+ShowShareButtons = true
+ShowWordCount = true
+UseHugoToc = true
+author = ["Me"]
+comments = false
+defaultTheme = "light"
+description = "ExampleSite description"
+disableScrollToTop = false
+disableSpecial1stPost = false
+disableThemeToggle = false
+env = "production"
+hideSummary = false
+hidemeta = false
+images = ["<link or path of image for opengraph, twitter-cards>"]
+keywords = ["Blog", "Portfolio", "PaperMod"]
+showtoc = false
+title = "ExampleSite"
+tocopen = false
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+[params.assets]
+apple_touch_icon = "<link / abs url>"
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+Text = "Suggest Changes"
+URL = "https://github.com/<path_to_repo>/content"
+appendFilePath = true
+
+[params.fuseOpts]
+distance = 1000
+isCaseSensitive = false
+keys = ["title", "permalink", "summary", "content"]
+limit = 10
+location = 0
+minMatchCharLength = 0
+shouldSort = true
+threshold = 0.4
+
+[params.homeInfoParams]
+Title = "つんどく📚 ~ radio"
+Content = """
+## オレたちの読書習慣
+
+***ゆるく*** 積読を消化しつつ、本の紹介や雑談をしていくラジオ
+
+### メインパーソナリティ
+
+- [yasunori0418](/about/yasunori0418)
+- [ツッチー]()
+"""
+
+[params.label]
+icon = "/books.png"
+iconHeight = 35
+text = "Home"
+
+[params.profileMode]
+enabled = false
+imageHeight = 120
+imageTitle = "my image"
+imageUrl = "<img location>"
+imageWidth = 120
+subtitle = "This is subtitle"
+title = "ExampleSite"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/"
