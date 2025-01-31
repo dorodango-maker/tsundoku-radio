@@ -31,20 +31,26 @@ identifier = "about"
 url = "/about/"
 
 [[menu.main]]
-name = "Archives"
+name = "Posts"
 weight = 30
-identifier = "archives"
+identifier = "posts"
 url = "/posts/"
 
 [[menu.main]]
-name = "Tags"
+name = "Archives"
 weight = 40
+identifier = "archives"
+url = "/archives/"
+
+[[menu.main]]
+name = "Tags"
+weight = 50
 identifier = "tags"
 url = "/tags/"
 
 [[menu.main]]
 name = "Categories"
-weight = 50
+weight = 60
 identifier = "categories"
 url = "/categories/"
 
