@@ -41,7 +41,11 @@ UseHugoToc: true
 
 ## 配信媒体
 
+- [Radiotalk](https://radiotalk.jp/program/156706)
+
 ## パーソナリティ
 
 - [yasunori0418](../../about/yasunori0418)
   - このラジオ企画で積読消化頑張るぞー！
+- [ツッチー](../../about/tutti)
+  - ゆるっと続けていけたらと思います。
