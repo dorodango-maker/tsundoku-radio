@@ -41,6 +41,8 @@ UseHugoToc: true
 
 ## 配信媒体
 
+- [Radiotalk](https://radiotalk.jp/program/156706)
+
 ## パーソナリティ
 
 - [yasunori0418](../../about/yasunori0418)
