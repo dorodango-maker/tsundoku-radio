@@ -45,3 +45,5 @@ UseHugoToc: true
 
 - [yasunori0418](../../about/yasunori0418)
   - このラジオ企画で積読消化頑張るぞー！
+- [ツッチー](../../about/tutti)
+  - ゆるっと続けていけたらと思います。
