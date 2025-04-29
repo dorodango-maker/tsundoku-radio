@@ -123,6 +123,8 @@ threshold = 0.4
 [params.homeInfoParams]
 Title = "つんどく📚 ~ radio"
 Content = """
+![カバー画像](/radio-cover-img.png)
+
 ## オレたちの読書習慣
 
 ***ゆるく*** 積読を消化しつつ、本の紹介や雑談をしていくラジオ
